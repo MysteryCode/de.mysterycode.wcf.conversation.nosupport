@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/tornado/eventListener.xsd">
+	<import>
+		<eventlistener name="conversationAdd">
+			<environment>user</environment>
+			<eventclassname>wcf\form\ConversationAddForm</eventclassname>
+			<eventname>readFormParameters,validate,assignVariables</eventname>
+			<listenerclassname>wcf\system\event\listener\NoConversationSupportEventListener</listenerclassname>
+		</eventlistener>
+	</import>
+</data>

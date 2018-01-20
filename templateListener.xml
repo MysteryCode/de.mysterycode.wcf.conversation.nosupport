@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/tornado/templateListener.xsd">
+	<import>
+		<templatelistener name="noConversationSupport">
+			<environment>user</environment>
+			<templatename>conversationAdd</templatename>
+			<eventname>sections</eventname>
+			<templatecode><![CDATA[{if $templateNameApplication == 'wcf'}{include file='__noConversationSupport'}{/if}]]></templatecode>
+		</templatelistener>
+	</import>
+</data>

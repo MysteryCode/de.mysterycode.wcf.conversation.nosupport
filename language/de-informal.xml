@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd" languagecode="de-informal">
+	<category name="wcf.conversation.nosupport">
+		<item name="wcf.conversation.nosupport.label"><![CDATA[Hiermit bestätige ich, dass ich obige Hinweise zum Support via Konversation verstanden habe und meine Nachricht den Regeln entspricht.]]></item>
+		<item name="wcf.conversation.nosupport.title"><![CDATA[Hinweise]]></item>
+		<item name="wcf.conversation.nosupport.text"><![CDATA[Konversationen sind zum Austausch von Informationen da, nicht jedoch für Support. Supportanfragen via Konversation sind nicht erlaubt und werden unbearbeitet gelöscht.]]></item>
+	</category>
+</language>
