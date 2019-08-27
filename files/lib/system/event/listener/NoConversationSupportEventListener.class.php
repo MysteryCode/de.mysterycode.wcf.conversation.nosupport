@@ -6,10 +6,10 @@ use wcf\system\exception\UserInputException;
 use wcf\system\WCF;
 
 /**
- * This class hooks the conversation add form and required accepting a checkbox before the conversation get's created.
+ * This class hooks the conversation add form and requires accepting a checkbox before the conversation get's created.
  *
  * @author      Florian Gail
- * @copyright   2014 Florian Gail <https://www.mysterycode.de/>
+ * @copyright   2014-2019 Florian Gail <https://www.mysterycode.de/>
  * @license     Kostenlose Produkte <https://www.mysterycode.de/licenses/kostenlose-plugins/>
  * @package     de.mysterycode.wcf.conversation.nosupport
  * @category    wcf\system\event\listener
