@@ -6,22 +6,20 @@
 		<packagedescription><![CDATA[Users will have to check a checkbox accepting that they won't get support via conversation.]]></packagedescription>
 		<packagedescription language="de"><![CDATA[Benutzer müssen bestätigen, dass sie keine Support-Anfrage per Konversation stellen.]]></packagedescription>
 		
-		<version><![CDATA[1.0.0 Beta 3]]></version>
-		<date><![CDATA[2018-08-27]]></date>
+		<version><![CDATA[1.0.0]]></version>
+		<date><![CDATA[2021-05-28]]></date>
 		
-		<packageurl>http://www.mysterycode.de</packageurl>
+		<packageurl>https://www.mysterycode.de</packageurl>
 	</packageinformation>
-
-	<compatibility>
-		<api version="2019" />
-		<api version="2018" />
-		<api version="2017" />
-	</compatibility>
 
 	<requiredpackages>
 		<requiredpackage minversion="3.0.0"><![CDATA[com.woltlab.wcf]]></requiredpackage>
 		<requiredpackage minversion="3.0.0"><![CDATA[com.woltlab.wcf.conversation]]></requiredpackage>
 	</requiredpackages>
+
+	<excludedpackages>
+		<excludedpackage version="6.0.0 Alpha 1"><![CDATA[com.woltlab.wcf]]></excludedpackage>
+	</excludedpackages>
 
 	<authorinformation>
 		<author><![CDATA[Florian Gail]]></author>
